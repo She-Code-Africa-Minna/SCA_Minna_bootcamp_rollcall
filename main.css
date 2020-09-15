@@ -1,0 +1,53 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    border: solid 5px #b70569;
+    padding: 10px 20px;
+}
+
+table {
+    width: 100%;
+}
+
+tr {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+tbody {
+    font-size: 18px;
+    font-family: fantasy;
+}
+
+h1 {
+    color: #b70569;
+    text-align: center;
+    width: 100%;
+}
+
+a {
+    font-family: cursive;
+    text-decoration: none;
+    color: #b70569;
+}
+
+.profile {
+    width: 120px;
+}
+
+.header {
+    width: 100%;
+}
+
+.heading {
+    font-size: 20px;
+}
+
+.content {
+    width: 100%;
+}
+
+.heading {
+    padding: 10px 0;
+}
