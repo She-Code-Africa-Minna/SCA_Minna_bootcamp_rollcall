@@ -33,6 +33,7 @@ a {
 
 .profile {
     width: 120px;
+    border-radius: 100%;
 }
 
 .header {
