@@ -1,3 +1,7 @@
+*{
+    box-sizing: border-box;
+}
+
 body {
     font-family: 'Times New Roman', Times, serif;
     border: solid 5px #b70569;
@@ -13,8 +17,10 @@ tr {
     width: 100%;
     justify-content: space-around;
     align-items: center;
+    margin-bottom: 30px;
 }
-
+.light-purple{color:#e75dab;}
+.dark-purple{color: #dd248d;}
 tbody {
     font-size: 18px;
     font-family: fantasy;
@@ -50,3 +56,27 @@ a {
 .heading {
     padding: 10px 0;
 }
+
+/* Special styling by mercy */
+
+.mercy-bg{
+    background-color: #df7cb4bd;
+}
+
+.mercy-bg a:hover{
+    color:rgb(163, 10, 163);
+}
+
+.mercy-img-border{
+    margin-top:15px;
+    margin-bottom:10px;
+    border: purple 1px solid;
+    padding: 3px;
+}
+
+
+.mercy-img-border:hover{
+    transform: scale(1.5);
+    margin: 40px;
+}
+/* Ends here */
