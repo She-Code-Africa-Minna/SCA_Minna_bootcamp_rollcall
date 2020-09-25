@@ -1,6 +1,6 @@
 body {
-    font-family: 'Times New Roman', Times, serif;
-    border: solid 5px #b70569;
+    font-family: 'poppins', Times, serif;
+    border: solid 5px red;
     padding: 10px 20px;
 }
 
@@ -17,18 +17,18 @@ tr {
 
 tbody {
     font-size: 18px;
-    font-family: fantasy;
+    font-family: arial;
 }
 
 h1 {
-    color: #b70569;
+    color: red;
     text-align: center;
     width: 100%;
 }
 
 a {
     text-decoration: none;
-    color: #b70569;
+    color: red;
 }
 
 .profile {
@@ -50,3 +50,4 @@ a {
 .heading {
     padding: 10px 0;
 }
+
