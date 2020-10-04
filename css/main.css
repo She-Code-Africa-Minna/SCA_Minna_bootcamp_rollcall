@@ -1,6 +1,10 @@
+*{
+    box-sizing: border-box;
+}
+
 body {
-    font-family: 'Times New Roman', Times, serif;
-    border: solid 5px #b70569;
+    font-family: 'poppins', Times, serif;
+    border: solid 5px red;
     padding: 10px 20px;
 }
 
@@ -13,26 +17,29 @@ tr {
     width: 100%;
     justify-content: space-around;
     align-items: center;
+    margin-bottom: 30px;
 }
-
+.light-purple{color:#e75dab;}
+.dark-purple{color: #dd248d;}
 tbody {
     font-size: 18px;
-    font-family: fantasy;
+    font-family: arial;
 }
 
 h1 {
-    color: #b70569;
+    color: red;
     text-align: center;
     width: 100%;
 }
 
 a {
     text-decoration: none;
-    color: #b70569;
+    color: red;
 }
 
 .profile {
     width: 120px;
+    border-radius: 100%;
 }
 
 .header {
@@ -50,3 +57,33 @@ a {
 .heading {
     padding: 10px 0;
 }
+
+.profile_iyin{
+
+border-radius:5px;
+}
+
+
+/* Special styling by mercy */
+
+.mercy-bg{
+    background-color: #df7cb4bd;
+}
+
+.mercy-bg a:hover{
+    color:rgb(163, 10, 163);
+}
+
+.mercy-img-border{
+    margin-top:15px;
+    margin-bottom:10px;
+    border: purple 1px solid;
+    padding: 3px;
+}
+
+
+.mercy-img-border:hover{
+    transform: scale(1.5);
+    margin: 40px;
+}
+/* Ends here */
